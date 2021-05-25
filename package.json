@@ -8,14 +8,10 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "boostrap": "^2.0.0",
-    "concurrently": "^6.2.0",
-    "cross-env": "^7.0.3",
     "electron-is-dev": "^2.0.0",
-    "electrpn": "^0.0.1-security",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "wait-on": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
   "main": "public/main.js",
@@ -61,7 +57,10 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^6.2.0",
+    "cross-env": "^7.0.3",
     "electron": "^13.0.0",
-    "electron-builder": "^22.10.5"
+    "electron-builder": "^22.10.5",
+    "wait-on": "^5.3.0"
   }
 }
